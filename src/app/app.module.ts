@@ -6,6 +6,7 @@ import { PaisModule } from './pais/pais.module';
 import { SharedModule } from './shared/shared.module';
 import { AppRoutingModule } from './app-routing.module';
 
+
 @NgModule({
   declarations: [
     AppComponent
@@ -16,6 +17,7 @@ import { AppRoutingModule } from './app-routing.module';
     SharedModule,
     AppRoutingModule,
     HttpClientModule
+    
   ],
   
   bootstrap: [AppComponent]
